@@ -28,6 +28,11 @@
     <!-- Analytics go here, yo -->
     <script></script>
     <style>
+    .top-ad {
+        vertical-align: middle;
+        margin-bottom: 10px;
+    }
+
     .top-article {
         margin-bottom: 20px;
         border-bottom: double #333333;
@@ -47,6 +52,7 @@
     }
 
     .top-middle-article h4 {
+        font-size: 18px;
         margin-top: 10px;
         margin-bottom: 5px;
     }
@@ -57,6 +63,9 @@
         border-bottom: 1px solid #e0e0e0
     }
 
+    .other-middle-article h4 {
+        font-size: 16px;
+    }
     .right-rail-ad {
         padding-bottom: 15px;
         margin-bottom: 15px;
@@ -64,141 +73,179 @@
     }
 
     .right-rail-video {
-        padding-top: 10px
-        padding-bottom: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         border-bottom: 1px solid #e0e0e0
+    }
+
+    .slider-box {
+        border: 1px solid #e0e0e0;
     }
     </style>
     </head>
-
-    <body data-spy="scroll">
-    <div class="top-ad" style="width: auto;">
-    <div class="row-fluid">
-    </div>
-        <div class="span12"><img src="http://www.fillmurray.com/728/90"></div>
-    </div>
-<div class="navbar">
-    <div class="navbar-inner">
-      <div class="container" style="width: auto;">
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </a>
-        <a class="brand" href="#">Whiskey Journal</a>
-        <div class="nav-collapse">
-          <ul class="nav">
-            <li class="active"><a href="#">News</a></li>
-            <li><a href="#">Sports</a></li>
-            <li><a href="#">ST</a></li>
-            <li><a href="#">Videos</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reviews <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="navbar-search pull-left" action="">
-            <input type="text" class="search-query span2" placeholder="Search">
-          </form>
-          <ul class="nav pull-right">
-            <li class="divider-vertical"></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div><!-- /.nav-collapse -->
-      </div>
-    </div><!-- /navbar-inner -->
-  </div>
-    <!-- CONTENT -->
-        <div class="row-fluid">
-            <div class="span5">
-                <div class="top-article">
-                    <img src="http://www.fillmurray.com/460/300">
-                    <h3>Main story headline here</h3>
-                    <p>SOMEWHERE -- As a recent act of self-artistry Tyra Banks accentuated her exquisite lower back with a freshly inked image of her Sports Illustrated modeling debut.</p>
-                </div>
-                <div class ="lesser-top-article">
-                    <div class="row-fluid">
-                        <div class="span6">
-                            <img src="http://www.fillmurray.com/380/210">
-                        </div>
-                        <div class="span6">
-                            <h4>Secondary headline goes here and here and here and here and here</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class ="lesser-top-article">
-                    <div class="row-fluid">
-                        <div class="span6">
-                            <img src="http://www.fillmurray.com/380/210">
-                        </div>
-                        <div class="span6">
-                            <h4>Secondary headline goes here and here and here and here and here</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class ="lesser-top-article">
-                    <div class="row-fluid">
-                        <div class="span6">
-                            <img src="http://www.fillmurray.com/380/210">
-                        </div>
-                        <div class="span6">
-                            <h4>Secondary headline goes here and here and here and here and here</h3>
-                        </div>
-                    </div>
-                </div>
+    <body class="index has-nav">
+        <div class="container-fluid">
+            <div class="top-ad">
+                <img src="http://www.fillmurray.com/728/90">
             </div>
-            <div class="span3">
-                <h5 style="text-align:center;">Top Stories</h5>
-                <div class="top-middle-article">
-                    <img src="http://www.fillmurray.com/300/200">
-                    <h4>Lesser headline goes here and whatnot and stuff also</h4>
-                    <p>Girl, are you waiting for the next big thing? Well we've got it here.</p>
-                </div>
-                <div class="other-middle-article">
-                    <h4>Longer headline goes here and whatnot and fills up space so you know</p>
-                </div>
-                <div class="other-middle-article">
-                    <h4>Longer headline goes here and whatnot and fills up space so you know</p>
-                </div>
-                <div class="other-middle-article">
-                    <h4>Longer headline goes here and whatnot and fills up space so you know</p>
-                </div>
-                <div class="other-middle-article">
-                    <h4>Longer headline goes here and whatnot and fills up space so you know</p>
-                </div>
-                <div class="other-middle-article">
-                    <h4>Longer headline goes here and whatnot and fills up space so you know</p>
-                </div>
-                <div class="other-middle-article">
-                    <h4>Longer headline goes here and whatnot and fills up space so you know</p>
-                </div>
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <div class="container" style="width: auto;">
+                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </a>
+                        <a class="brand" href="#">The Whiskey Journal</a>
+                        <div class="nav-collapse">
+                            <ul class="nav">
+                                <li class="active"><a href="#">News</a></li>
+                                <li><a href="#">Sports</a></li>
+                                <li><a href="#">ST</a></li>
+                                <li><a href="#">Videos</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reviews <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#">Another action</a></li>
+                                            <li><a href="#">Something else here</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="#">Separated link</a></li>
+                                        </ul>
+                                </li>
+                            </ul>
+                            <form class="navbar-search pull-left" action="">
+                                <input type="text" class="search-query span2" placeholder="Search">
+                            </form>
+                            <ul class="nav pull-right">
+                                <li class="divider-vertical"></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div><!-- /.nav-collapse -->
+                    </div>
+                </div><!-- /navbar-inner -->
             </div>
-            <div class="span4">
-                <div class="quote-box">
-                    <blockquote>
-                        <p>"This is where a funny quote will go that links to something."</p>
-                        <small>Someone famous from <cite title="Source Title">Something Important</cite></small>
-                    </blockquote>
-                </div>
-                <div class="right-rail-ad">
-                    <h5 style="text-align:center;">Advertisement</h5>
-                    <img src="http://www.fillmurray.com/300/250">
-                </div>
-                <div class="right-rail-video">
-                    <h5 style="text-align:center;">Latest Video</h5>
-                    <iframe width="300" height="250" src="http://www.youtube.com/embed/ytYZC4u6q-E" frameborder="0" allowfullscreen></iframe>
-                </div>
-                <h4></h4>
+            <div id="content">
+                <div id="body" class="container-fluid">
+                    <div class="row-fluid">
+                        <div class="span5">
+                            <div class="top-article">
+                                <img src="http://www.fillmurray.com/460/300">
+                                <h3>Main story headline here</h3>
+                                <p>SOMEWHERE -- As a recent act of self-artistry Tyra Banks accentuated her exquisite lower back with a freshly inked image of her Sports Illustrated modeling debut.</p>
+                            </div>
+                            <div class ="lesser-top-article">
+                                <div class="row-fluid">
+                                    <div class="span6">
+                                        <img src="http://www.fillmurray.com/380/210">
+                                    </div>
+                                    <div class="span6">
+                                        <h4>Secondary headline goes here and here and here and here and here</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class ="lesser-top-article">
+                                <div class="row-fluid">
+                                    <div class="span6">
+                                        <img src="http://www.fillmurray.com/380/210">
+                                    </div>
+                                    <div class="span6">
+                                        <h4>Secondary headline goes here and here and here and here and here</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class ="lesser-top-article">
+                                <div class="row-fluid">
+                                    <div class="span6">
+                                        <img src="http://www.fillmurray.com/380/210">
+                                    </div>
+                                    <div class="span6">
+                                        <h4>Secondary headline goes here and here and here and here and here</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span3">
+                            <h5 style="text-align:center;">Top Stories</h5>
+                            <div class="top-middle-article">
+                                <img src="http://www.fillmurray.com/300/200">
+                                <h4>Lesser headline goes here and whatnot and stuff also</h4>
+                                <p>Girl, are you waiting for the next big thing? Well we've got it here.</p>
+                            </div>
+                            <div class="other-middle-article">
+                                <h4>Longer headline goes here and whatnot and fills up space so you know</p>
+                            </div>
+                            <div class="other-middle-article">
+                                <h4>Longer headline goes here and whatnot and fills up space so you know</p>
+                            </div>
+                            <div class="other-middle-article">
+                                <h4>Longer headline goes here and whatnot and fills up space so you know</p>
+                            </div>
+                            <div class="other-middle-article">
+                                <h4>Longer headline goes here and whatnot and fills up space so you know</p>
+                            </div>
+                            <div class="other-middle-article">
+                                <h4>Longer headline goes here and whatnot and fills up space so you know</p>
+                            </div>
+                        </div>
+                        <div class="span4">
+                            <div class="quote-box">
+                                <blockquote>
+                                    <p>"This is where a funny quote will go that links to something."</p>
+                                    <small>Someone famous from <cite title="Source Title">Something Important</cite></small>
+                                </blockquote>
+                            </div>
+                            <div class="right-rail-ad">
+                                <h5 style="text-align:center;">Advertisement</h5>
+                                <img src="http://www.fillmurray.com/300/250">
+                            </div>
+                            <div class="right-rail-video">
+                                <h5 style="text-align:center;">Latest Video</h5>
+                                <iframe width="300" height="250" src="http://www.youtube.com/embed/ytYZC4u6q-E" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <h4></h4>
+                        </div>
+                    </div>
+                    <div class="row-fluid">
+                        <div class="slider-box">
+                            <div class="span3">
+                                <img src="http://www.fillmurray.com/300/200">
+                                <h4 style="text-align:center;">Headline summer jam 1990 woo</h4>
+                            </div>
+                            <div class="span3">
+                                <img src="http://www.fillmurray.com/300/200">
+                                <h4 style="text-align:center;">Headline summer jam 1990 woo</h4>
+                            </div>
+                            <div class="span3">
+                                <img src="http://www.fillmurray.com/300/200">
+                                <h4 style="text-align:center;">Headline summer jam 1990 woo</h4>
+                            </div>
+                            <div class="span3">
+                                <img src="http://www.fillmurray.com/300/200">
+                                <h4 style="text-align:center;">Headline summer jam 1990 woo</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- end content -->
             </div>
         </div>
     </div>
 </div>
+
+<footer id="footer">
+    <div class="container-fluid">
+        <p class="pull-right"><a href="#top">Back to top</a></p>
+        <div class="links">
+            <a href="#">Contact</a>
+            <a href="#">RSS</a>
+            <a href="https://twitter.com/whiskeyjournal">Twitter</a>
+            <a href="https://www.facebook.com/thewhiskeyjournal">Facebook</a>
+            <a href="#">Donate</a>
+          </div>
+        Made by <a href="http://www.andyboyleisntfunny.com">Andy Boyle and The Whiskey Journal Staff</a>. Contact us <a href="mailto:thewhiskeyjournal@gmail.com">thewhiskeyjournal@gmail.com</a>.<br>
+        Based on <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>. Built in <a href="http://www.wordpress.com">Wordpress.</a> Icons from <a href="http://fortawesome.github.com/Font-Awesome/">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts">Google</a>.
+    </div>
+</footer>
     <!-- Javascript, yo
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
